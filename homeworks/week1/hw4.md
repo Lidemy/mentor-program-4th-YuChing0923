@@ -9,6 +9,7 @@ git 就是一個幫你做版本控制的程式
 * 多人協作專案要加各自的新功能，或是各自修的 bug 的時候。
 
 [windows 安裝](https://git-scm.com/)
+
 [mac 安裝](https://git-scm.com/download/mac)
 
 
