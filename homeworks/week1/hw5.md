@@ -10,17 +10,20 @@
 
 
 ## 請列舉出 3 個「課程沒有提到」的 command line 指令並且說明功用
-* find
-找尋檔案
-```find -name test.txt```
+* find<br>找尋檔案
+```
+find -name test.txt
+```
 執行後，`find` 會列出所有檔名是 `test.txt` 的檔案列表。
-```find /home -iname test.txt```
+```
+find /home -iname test.txt
+```
 在 `/home` 目錄底下，不分英文大小寫，找尋檔案名稱為 `test.txt` 的檔案。
 
-* file
-確認檔案的類型
+* file<br>確認檔案的類型
 
-* cmp
-比較兩個文件的內容
-```cmp -name file1.txt file2.txt```
-cmp 指令會將檔案 file1, file2 進行比較，並且列出第一個內容不同處的字元數及行數。
+* cmp<br>比較兩個文件的內容
+```
+cmp -name file1.txt file2.txt
+```
+`cmp` 指令會將檔案 `file1`, `file2` 進行比較，並且列出第一個內容不同處的字元數及行數。
