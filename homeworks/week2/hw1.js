@@ -4,6 +4,7 @@ function printStars(number) {
 	for (let i = 0; i < number; i++) {
 		resultArr.push('*')
 	}
+	console.log(resultArr.join('\n'))
 }
 
 /* test */

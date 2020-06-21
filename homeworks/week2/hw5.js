@@ -1,7 +1,7 @@
 /* join */
 function join(array, string) {
     /* ↓↓自我檢討訂正：漏掉空陣列時的回傳值↓↓ */
-    if (arr.length === 0) { // special case
+    if (array.length === 0) { // special case
         return '';
     }
     /* ↑↑自我檢討訂正：漏掉空陣列時的回傳值↑↑ */
