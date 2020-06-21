@@ -19,11 +19,11 @@ git 就是一個幫你做版本控制的程式
 | `git init` | git 專案初始化 |
 | `git status` | 檢視目前狀態 |
 | `git add` | 決定檔案是否加入版本控制 |
-| `git -rm cached` | 將加入版本控制的檔案移除 |
+| `git rm --cached` | 將加入版本控制的檔案移除 |
 | `git commit` | 新建一個版本 |
 | `git commit -am` | 合併 `add` 跟 `commit` 兩個指令 |
 | `git log` | 歷史紀錄 |
-| `git checkout` | 回到某個指定版本 |
+| `git checkout` | 回到某個指定版本（或切換分支，詳見下方 branch 相關指令） |
 
 ### .gitignore
 在 git 專案中新建一個 .gitignore 檔案。
