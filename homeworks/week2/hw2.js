@@ -1,5 +1,10 @@
-function capitalize(str) {
-  
+/* 首字母大寫 */
+function capitalize(string) {
+	return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
-console.log(capitalize('hello'));
+/* test */
+capitalize('nick')
+capitalize('Nick')
+capitalize(',hello')
+/* test */
