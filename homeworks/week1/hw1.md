@@ -9,4 +9,4 @@
 7. 把 pull request 的連結複製到學習系統上繳交作業
 8.作業改完後助教會 merge 回 master
 9. 本地端切換到 master 並把最新的變動 pull 下來（`git pull origin master`）
-10. 把已 merge 的本地 branch 刪除（`git branch -d hw1`）
+10. 把已 merge 的本地 branch 刪除（`git branch -d week1`）
