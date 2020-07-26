@@ -233,3 +233,49 @@ footer .footer__bottom {
         text-align: left;
     }
 }
+
+.section .section__comment {
+    display: flex;
+}
+
+.section .section__comment-block {
+    width: 33.333%;
+    position: relative;
+    padding: 8px;
+}
+
+.section .section__comment-block .user {
+    position: relative;
+    z-index: 1;
+}
+
+.section .section__comment-block .user img {
+    width: 105px;
+    height: 105px;
+    margin-bottom: 5px;
+}
+
+.section .section__comment-block .user .user__id {
+    font-size: 16px;
+    margin: 0;
+}
+
+.section .comment__content {
+    box-shadow: -1.4px -1.4px 4px 0 #c7e5ec;
+    padding: 93px 40px 20px;
+    border: solid 1px #c7e5ec;
+    border-radius: 5px;
+    position: relative;
+    top: -70px;
+    letter-spacing: 0.14px;
+}
+
+@media(max-width: 768px) {
+    .section .section__comment {
+        flex-wrap: wrap;
+    }
+
+    .section .section__comment-block {
+        width: 100%;
+    }
+}
