@@ -1,0 +1,97 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Questrial, Microsoft JhengHei;
+    font-size: 16px;
+}
+
+form.form {
+    background-color: #fff;
+    max-width: 645px;
+    border-top: solid 6px #fad312;
+    box-shadow: 1.8px 2.4px 5px 0 rgba(0, 0, 0, .3);
+    margin: 130px auto 65px;
+    padding: 55px 40px 35px;
+}
+
+form.form .info{
+    margin: 0 0 20px;
+    color: #000;
+}
+
+form.form .info .info_title{
+    margin-bottom: 35px;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1.8px;
+}
+
+form.form .info .info_content{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+form.form .warning{
+    color: #e74149;
+}
+
+form.form .form_main .form_title{
+    margin: 50px 0 20px;
+    font-size: 20px;
+    color: #000;
+}
+
+form.form .form_main .form_title .sub_title{
+    display: block;
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+form.form .form_main input.form_input{
+    color: #d0d0d0;
+    border: solid 1px #d0d0d0;
+    width: 100%;
+    max-height: 23px;
+    max-width: 287px;
+}
+
+form.form .form_main input.form_radio{
+    margin-bottom: 25px;
+}
+
+form.form .form_main input.form_radio.last{
+    margin-bottom: 0;
+}
+
+form.form .form_main label.form_label{
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+form.form .submmit{
+    margin: 55px 0 35px 0;
+}
+
+form.form .submmit button{
+    padding: 15px 30px;
+    background-color: #fad312;
+    color: #000;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+form.form .sub_title{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: #000;
+    padding: 25px 0;
+    color: #999;
+    text-align: center;
+}
+
+footer p{
+    margin: 0;
+}
