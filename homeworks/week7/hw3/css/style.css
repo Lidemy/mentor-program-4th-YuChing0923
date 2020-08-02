@@ -1,0 +1,44 @@
+body {
+  /*background-color: #f0f0f0;*/
+  font-family: Questrial, Microsoft JhengHei;
+  font-size: 16px;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+@media(max-width: 768px) {
+  .wrapper {
+    padding: 0;
+  }
+}
+
+input.add_input{
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.tasksList .task_block{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.tasksList .task_block label{
+    text-align: left;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.tasksList .task_block.done label{
+    text-decoration:line-through;
+    color: #999;
+}
+
+.tasksList .task_block .delete{
+    text-align: right;
+}
