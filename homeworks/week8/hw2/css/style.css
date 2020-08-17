@@ -1,0 +1,179 @@
+body {
+  /*background-color: #ddd;*/
+  font-family: Questrial, Microsoft JhengHei;
+}
+
+.navbar {
+  padding-left: 24px;
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__site-name {
+  font-size: 24px;
+}
+
+.navbar__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.navbar__list li.active,
+.navbar__list li:hover {
+  background-color: #4c4c4c;
+  transition: .2s;
+}
+
+.navbar__list li a {
+  text-decoration: none;
+  padding: 12px 24px;
+  display: block;
+  color: #010101;
+}
+
+.navbar__list li.active a,
+.navbar__list li:hover a {
+  color: #fff;
+  transition: .2s;
+}
+
+@media(max-width: 768px) {
+  .navbar {
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .navbar__site-name {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar__list {
+    display: flex;
+    width: 100%;
+  }
+
+  .navbar__list li {
+    flex: 1;
+    margin-left: 0;
+    border-radius: 0;
+    text-align: center;
+  }
+
+  .navbar__list li a {
+    padding: 6px;
+  }
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.game__list .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.game__list {
+  background-color: #515B69;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.game__list .list__title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  width: 100%;
+}
+
+.game__list .list__subtitle {
+  font-size: 18px;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.game__list .list__block {
+  padding: 10px;
+  width: 33.33333%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  transition: .2s;
+}
+
+.game__list .list__block:hover {
+  transform: scale(1.05);
+  transition: .2s;
+}
+
+@media(max-width: 768px) {
+  .game__list .list__block {
+    width: 100%;
+  }
+}
+
+.game__list .list__block .game__img,
+.game__list .list__block .game__img img {
+  width: 100%;
+}
+
+.game__list .list__block .game__channel {
+  width: 100%;
+  position: relative;
+  top: -5px;
+  display: flex;
+  background-color: #393A3D;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.game__list .list__block .game__channel .user__img {
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.game__list .list__block .game__channel .user__img img {
+  width: 100%;
+  height: auto;
+}
+
+.game__list .list__block .game__channel .channel__info {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.game__list .list__block .game__channel .channel__info .channel__status,
+.game__list .list__block .game__channel .channel__info .channel__name {
+  font-size: 16px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.game__list .list__block .game__channel .channel__info .channel__status {
+  font-size: 16px;
+}
+
+.game__list .list__block .game__channel .channel__info .channel__name {
+  font-size: 14px;
+}
